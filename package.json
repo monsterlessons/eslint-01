@@ -1,0 +1,16 @@
+{
+  "name": "eslint-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint main.js",
+    "lint:watch": "esw main.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-watch": "^3.0.0"
+  }
+}
